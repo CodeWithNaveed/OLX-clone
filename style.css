@@ -1,0 +1,356 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ------------------------------------------------------- ali-nav-bar ------------------------------------------------------------- */
+
+.container-fluid {
+    margin-left: 137px !important;
+} 
+
+.navbar-brand {
+    width: 5.3rem !important;
+    height: 3.2rem !important;
+    fill: #002f34 !important;
+}
+
+.fa-solid-bg {
+    background: linear-gradient(to top, #f5f6f6, #d4d5d5); 
+    background-color: #e2e8e8!important;
+    padding: 15px;
+    border-radius:100px ;
+    width: 20px !important;
+}
+
+.nav-link {
+   padding: 10px !important;
+}
+
+.nav-link:hover {
+    color: blue !important;
+}
+@media only screen and (max-width: 900px) {
+    .container-fluid {
+        margin-left: 5px !important;
+    }
+
+    .navbar-toggler, .navbar-toggler-icon {
+        margin-left: 5px !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .container-fluid {
+        margin-left: 5px !important;
+    }
+}
+/* ------------------------------------------------------ search & select country ------------------------------------------------------------- */
+.ali-container {
+    display: flex !important;
+}
+
+.search-country-location {
+    display: inline-flex;
+    border: #002f3454 solid 1px!important; 
+    margin-left: 163px !important;
+    margin-top: 8px !important;
+    width: 340px !important;
+    height: 50px !important;
+    align-items: center !important;
+}
+
+.search-country-location:hover {
+    border-color: aqua !important;
+    border-width: 2px !important;
+} 
+
+.ali-location-icon {
+    color: #002f34;
+    font-size: 22px !important;
+    padding: 4px 10px 4px 15px !important;
+}
+
+.ali-form-select {
+    border: 100px !important;
+    font-size: 20px !important;
+    width: 100% !important;
+}
+
+.ali-search-box {
+    border: #002f3454 solid 1px!important; 
+    margin-left:20px !important;
+    width: 740px !important;
+    height: 50px !important;
+}
+
+.ali-search-box:hover {
+    border-color: aqua !important;
+    border-width: 2px !important;
+}
+
+.ali-form-control{
+    border: none !important;
+    font-size: 20px !important;
+    width: 740px !important;
+}
+
+.ali-login-text {
+    margin-left: 20px !important;
+    margin-top: 13px !important;
+    font-size: 20px !important;
+    color: #002f34 !important;
+    font-weight: 600 !important;
+    text-decoration: underline !important;
+}
+
+.ali-login-text:hover {
+    text-decoration: none !important;
+    cursor: pointer;
+}
+
+.ali-btn-primary {
+    background-color: black !important;
+    color: white !important;
+    width: 10% !important;
+    border-radius: 0px !important;
+}
+
+.ali-spherical-sell {
+    background-image: url("./navbar images/spherical.svg") !important;
+    width: 102px !important; 
+    background-repeat: no-repeat !important;   
+    margin-left: 10px !important;
+    margin-top: 7px !important;
+}
+
+.ali-spherical-sell:active {
+    transition: all 0.1s ease;
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+.ali-spherical-sell-text {
+    margin-top: 12px !important;
+    font-size: 15px !important;
+}
+
+@media screen and (max-width: 900px) {
+    .ali-container {
+        display: block !important;
+    }
+
+    .search-country-location {
+        margin-left:5px !important;
+        width: 50% !important;
+    }
+
+    .ali-search-box {
+        margin-left:5px !important;
+        width: 50% !important;
+    }
+  
+    .ali-login-text {
+        display: inline-flex !important;
+        margin-left: 5px !important;
+    }
+  
+    .ali-spherical-sell {
+        display: inline-flex !important;
+        margin-left: 300px !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .ali-container {
+        display: block !important;
+    }
+
+    .search-country-location {
+        margin-left:5px !important;
+        width: 50% !important;
+    }
+
+    .ali-search-box {
+        margin-left:5px !important;
+        width: 50% !important;
+    }
+  
+    .ali-login-text {
+        display: inline-flex !important;
+        margin-left: 5px !important;
+    }
+  
+    .ali-spherical-sell {
+        display: inline-flex !important;
+        margin-left: 250px !important;
+    }
+}
+
+/* ------------------------------------------------------- option-navbar ----------------------------------------------------------- */
+
+.ali-option-navbar {
+    margin-top: -16px !important;
+}
+
+/* ----------------------------------------------------------carousel--------------------------------------------------------------- */
+.ali-carousel-container {
+    margin-left: 150px !important;
+    
+}
+
+.ali-carousel-container {
+    height: 300px !important;
+}
+
+/* @media screen and (max-width: 1440px) {
+    .ali-carousel-container {
+        margin-left:0px !important;
+    }
+}
+
+@media screen and (max-width: 1290px) {
+    .ali-carousel-container {
+        margin-left: -80px !important;
+    }
+    .ali-image-carousel-item {
+        width: 800px !important;
+    }
+} */
+
+/* @media screen and (max-width: 600px) {
+    .carousell, .ali-carousel-inner, .carousel-item, .carousel-inner {
+        margin-left: -10px !important;
+        width: 100% !important;
+        padding: 50px !important;
+    }
+} */
+
+
+/* ----------------------------------------------------- icon categories ---------------------------------------------------------- */
+
+.ali-image-icon-item-container-main {
+    margin-top: -60px;
+}
+
+.ali-image-icon-item-container-main > h2 {
+    margin-left: 150px !important;
+    font-size: 30px !important;
+    font-weight: bold !important;
+    margin-bottom: 20px !important;
+}
+
+.ali-image-icon-item-container{
+    display: grid !important;
+    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px !important;
+    gap: 0px 120px !important;
+    margin-left: 150px !important;
+}
+
+.ali-image-icon-item > h4 {
+    width: 100px !important;
+    font-size: 15px !important;
+    font-weight: bold !important;
+    text-align: center !important;
+}
+
+.ali-image-icon-item > img {
+    width: 100px !important;
+    height: 100px !important;
+}
+
+
+
+
+/* ----------------------------------------------------- cards categories ----------------------------------------------------------> */
+
+.ali-card-title-style {
+    font-weight: 700 !important;
+    font-size: 25px !important;
+}
+
+.card-img-top {
+    height: 300px !important;
+}
+
+.fa-regular {
+    margin-left: 100px;
+}
+
+.ali-card-style:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/* ----------------------------------------------------- Footer ---------------------------------------------------------- */
+
+.ali-footer-container-main {
+    margin-top: 100px !important;
+    width: 100% !important;
+}
+
+.ali-footer-container-1 {
+    display: flex !important;
+    background-color: #f5f6f6 !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.377) !important;
+} 
+
+.ali-footer-text-1 {
+    font-size:30px !important;
+    width: 600px !important;
+    justify-content: center;
+    margin-top: 20px !important;
+}
+
+.ali-footer-vertical-line {
+    height: 150px !important;
+    margin: 20px 10px !important;
+}
+
+.ali-footer-icon {
+    margin-top: 30px !important;
+    margin-left: 100px;
+}
+
+.ali-footer-icon > img {
+    width: 100px !important;
+}
+
+.ali-footer-container-2 {
+    display: flex !important;
+    width: 100% !important;
+    background-color: #dedede !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.377) !important;
+}
+
+.ali-footer-icon-2 {
+    margin-top: 30px !important;
+    margin-left: 210px;
+}
+
+.fa {
+    color: black !important;
+    margin-left: 10px !important;
+}
+
+
+.ali-footer-list {
+    display: inline-flex !important;
+    list-style: none !important;
+    margin-left: 50px !important;
+}
+
+.ali-footer-list > li {
+    padding: 30px !important;
+}
+
+.ali-footer-container-3 {
+    background-color: #4d5f5f !important;
+    color: white !important;
+    text-align: right !important;
+    font-weight: 700;
+    padding: 12px 140px !important;
+}
